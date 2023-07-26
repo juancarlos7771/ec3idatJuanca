@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/michi_navigation"
+    app:startDestination="@id/michiListFragment">
+
+    <fragment
+        android:id="@+id/michiFavoriteFragment"
+        android:name="com.juanca.ec3_campodonico.view.fragments.MichiFavoriteFragment"
+        android:label="fragment_michi_favorite"
+        tools:layout="@layout/fragment_michi_favorite" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.juanca.ec3_campodonico.view.fragments.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/michiListFragment"
+        android:name="com.juanca.ec3_campodonico.view.fragments.MichiListFragment"
+        android:label="fragment_michi_list"
+        tools:layout="@layout/fragment_michi_list" />
+    <fragment
+        android:id="@+id/michiDetailFragment"
+        android:name="com.juanca.ec3_campodonico.view.fragments.MichiDetailFragment"
+        android:label="fragment_michi_detail"
+        tools:layout="@layout/fragment_michi_detail" />
+</navigation>
